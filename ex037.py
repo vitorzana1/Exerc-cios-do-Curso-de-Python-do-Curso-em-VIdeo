@@ -1,0 +1,7 @@
+numero = int(input('Digite um número: '))
+binario = bin(numero)
+octal = oct(numero)
+hexa = hex(numero)
+print('o número digitado em binario é {}'.format(binario))
+print(octal)
+print(hexa)
