@@ -1,7 +1,7 @@
 import time
 tamanho = float(input('Qual a sua altura? (em CM)'))
 peso = float(input('Qual o seu peso? '))
-imc = (peso / (tamanho * tamanho)) * 10000
+imc = (peso / (tamanho ** 2)) * 10000
 
 if imc < 18.5:
     print('Seu IMC é {:.2f} e você está abaixo do peso!'.format(imc))

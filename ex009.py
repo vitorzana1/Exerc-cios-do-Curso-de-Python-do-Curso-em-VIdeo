@@ -1,4 +1,4 @@
-n = int(input('Digite um número para saber sua tabuada: '))
+n = int(input('Digite um número para saber sua taboada: '))
 n1 = n * 1
 n2 = n * 2
 n3 = n * 3
